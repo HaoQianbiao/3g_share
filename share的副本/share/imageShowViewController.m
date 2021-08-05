@@ -47,8 +47,6 @@
             [_scrollView addSubview:_button];
         }
     }
-
-    
     [self.view addSubview:_scrollView];
     
 }

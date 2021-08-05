@@ -107,53 +107,68 @@
     if (tableView == _tableViewFirst) {
         if (indexPath.row == 0) {
             MyUpLoadTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             MyUpLoadTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             MyUpLoadTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             MyUpLoadTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else {
             MyUpLoadTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"4" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }
         
     } else if (tableView == _tableViewSecond) {
         if (indexPath.row == 0) {
             MyUpLoadOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             MyUpLoadOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             MyUpLoadOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             MyUpLoadOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else {
             MyUpLoadOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"4" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }
     } else {
         if (indexPath.row == 0) {
             MyUpLoadTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             MyUpLoadTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             MyUpLoadTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             MyUpLoadTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else {
             MyUpLoadTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"4" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }
     }

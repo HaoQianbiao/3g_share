@@ -8,6 +8,7 @@
 
 #import "PrivateLetterViewController.h"
 #import "PrivateLetterTableViewCell.h"
+#import "ChatViewController.h"
 @interface PrivateLetterViewController ()
 
 @end
@@ -44,17 +45,42 @@
 -(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
         PrivateLetterTableViewCell* cell = [_tableView dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     } else if (indexPath.row == 1) {
         PrivateLetterTableViewCell* cell = [_tableView dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     } else if (indexPath.row == 2) {
         PrivateLetterTableViewCell* cell = [_tableView dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     } else {
         PrivateLetterTableViewCell* cell = [_tableView dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     }
+}
+
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        ChatViewController* chat = [[ChatViewController alloc] init];
+        chat.imageStr = @"/Users/haoqianbiao/Desktop/test1/UI/share/头像/WechatIMG25.jpeg";
+        [self.navigationController pushViewController:chat animated:YES];
+    } else if (indexPath.row == 1) {
+        ChatViewController* chat = [[ChatViewController alloc] init];
+        chat.imageStr = @"/Users/haoqianbiao/Desktop/test1/UI/share/头像/WechatIMG26.jpeg";
+        [self.navigationController pushViewController:chat animated:YES];
+    } else if (indexPath.row == 2) {
+        ChatViewController* chat = [[ChatViewController alloc] init];
+        chat.imageStr = @"/Users/haoqianbiao/Desktop/test1/UI/share/头像/WechatIMG27.jpeg";
+        [self.navigationController pushViewController:chat animated:YES];
+    } else {
+        ChatViewController* chat = [[ChatViewController alloc] init];
+        chat.imageStr = @"/Users/haoqianbiao/Desktop/test1/UI/share/头像/WechatIMG28.jpeg";
+        [self.navigationController pushViewController:chat animated:YES];
+    }
+
 }
 
 @end

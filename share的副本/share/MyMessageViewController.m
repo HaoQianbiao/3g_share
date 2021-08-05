@@ -60,6 +60,7 @@
     cell.textLabel.text = [_nameArray objectAtIndex:indexPath.row * 2];
     _label.text = [_nameArray objectAtIndex:indexPath.row * 2 + 1];
     [cell.contentView addSubview:_label];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 
 }

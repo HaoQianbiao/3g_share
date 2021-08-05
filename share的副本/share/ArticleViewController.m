@@ -111,53 +111,68 @@
     if (tableView == _tableViewFirst) {
         if (indexPath.row == 0) {
             ArticleTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             ArticleTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             ArticleTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             ArticleTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else {
             ArticleTableViewCell* cell = [_tableViewFirst dequeueReusableCellWithIdentifier:@"4" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }
         
     } else if (tableView == _tableViewSecond) {
         if (indexPath.row == 0) {
             ArticleOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             ArticleOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             ArticleOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             ArticleOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else {
             ArticleOneTableViewCell* cell = [_tableViewSecond dequeueReusableCellWithIdentifier:@"4" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }
     } else {
         if (indexPath.row == 0) {
             ArticleTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             ArticleTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"1" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             ArticleTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"2" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             ArticleTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"3" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         } else {
             ArticleTwoTableViewCell* cell = [_tableViewThird dequeueReusableCellWithIdentifier:@"4" forIndexPath:indexPath];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }
     }

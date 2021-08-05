@@ -189,6 +189,7 @@
     ShareTableViewCell* cell = [_tableView dequeueReusableCellWithIdentifier:@"0" forIndexPath:indexPath];
     cell.textLabel.text = [NSString stringWithString:_nameArray[indexPath.row]];
     cell.textLabel.font = [UIFont systemFontOfSize:15];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 

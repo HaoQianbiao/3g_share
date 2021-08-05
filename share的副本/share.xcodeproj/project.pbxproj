@@ -109,6 +109,9 @@
 		CC45B90F26B2429300325AAA /* BasicInformationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45B90E26B2429300325AAA /* BasicInformationTableViewCell.m */; };
 		CC45B91326B2467E00325AAA /* PersonMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45B91226B2467E00325AAA /* PersonMessageTableViewCell.m */; };
 		CC45B92026B2574F00325AAA /* PasswordChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45B91F26B2574F00325AAA /* PasswordChangeViewController.m */; };
+		CC706B5526BA3AD0002BA328 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC706B5426BA3AD0002BA328 /* ChatViewController.m */; };
+		CCCFEA5926BA7EC6003C98A6 /* 气泡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCFEA5826BA7EC6003C98A6 /* 气泡.jpg */; };
+		CCCFEA5F26BA865A003C98A6 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCFEA5E26BA865A003C98A6 /* ArticleViewController.m */; };
 		CCE5362526AD978B002863F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5362426AD978B002863F1 /* AppDelegate.m */; };
 		CCE5362826AD978B002863F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5362726AD978B002863F1 /* ViewController.m */; };
 		CCE5362B26AD978B002863F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE5362926AD978B002863F1 /* Main.storyboard */; };
@@ -118,7 +121,6 @@
 		CCE5363D26AD978C002863F1 /* shareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5363C26AD978C002863F1 /* shareTests.m */; };
 		CCE5364826AD978C002863F1 /* shareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5364726AD978C002863F1 /* shareUITests.m */; };
 		CCE5365A26AD9A6A002863F1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5365926AD9A6A002863F1 /* SearchViewController.m */; };
-		CCE5365D26AD9AF1002863F1 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5365C26AD9AF1002863F1 /* ArticleViewController.m */; };
 		CCE5366026AD9B17002863F1 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5365F26AD9B17002863F1 /* ActivityViewController.m */; };
 		CCE5366326AD9B40002863F1 /* PersonMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5366226AD9B40002863F1 /* PersonMessageViewController.m */; };
 		CCE5366726AD9B59002863F1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5366626AD9B59002863F1 /* LoginViewController.m */; };
@@ -323,6 +325,10 @@
 		CC45B91E26B2574F00325AAA /* PasswordChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordChangeViewController.h; sourceTree = "<group>"; };
 		CC45B91F26B2574F00325AAA /* PasswordChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordChangeViewController.m; sourceTree = "<group>"; };
 		CC4F43D426B02A89009EA992 /* PersonMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonMessageTableViewCell.h; sourceTree = "<group>"; };
+		CC706B5326BA3AD0002BA328 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		CC706B5426BA3AD0002BA328 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		CCCFEA5826BA7EC6003C98A6 /* 气泡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "气泡.jpg"; sourceTree = "<group>"; };
+		CCCFEA5E26BA865A003C98A6 /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		CCE5362026AD978B002863F1 /* share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = share.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE5362326AD978B002863F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCE5362426AD978B002863F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -342,7 +348,6 @@
 		CCE5365826AD9A6A002863F1 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		CCE5365926AD9A6A002863F1 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		CCE5365B26AD9AF1002863F1 /* ArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
-		CCE5365C26AD9AF1002863F1 /* ArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		CCE5365E26AD9B17002863F1 /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
 		CCE5365F26AD9B17002863F1 /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
 		CCE5366126AD9B40002863F1 /* PersonMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonMessageViewController.h; sourceTree = "<group>"; };
@@ -534,7 +539,6 @@
 				CC2E177D26B8274A00F44540 /* button2_normal.png */,
 				CC2E179726B8274A00F44540 /* button4_normal.png */,
 				CC2E179926B8274A00F44540 /* button4_pressed.png */,
-				CCE5365C26AD9AF1002863F1 /* ArticleViewController.m */,
 				CC2E17A326B8274A00F44540 /* button1_normal.png */,
 				CC2E17A426B8274A00F44540 /* button1_pressed.png */,
 				CC2E17AF26B8274A00F44540 /* button2_pressed.png */,
@@ -559,6 +563,7 @@
 				CC2E17B726B8274A00F44540 /* 7 活动_2.jpg */,
 				CC2E17BB26B8274A00F44540 /* 7 活动_3.jpg */,
 				CC2E17BC26B8274A00F44540 /* zu.png */,
+				CCCFEA5826BA7EC6003C98A6 /* 气泡.jpg */,
 			);
 			path = "素材";
 			sourceTree = "<group>";
@@ -625,6 +630,7 @@
 				CCF0F96526B3876D003BBEAA /* imageShowViewController.h */,
 				CCF0F96626B3876D003BBEAA /* imageShowViewController.m */,
 				CCE5365B26AD9AF1002863F1 /* ArticleViewController.h */,
+				CCCFEA5E26BA865A003C98A6 /* ArticleViewController.m */,
 				CCF118AB26B1045500C3819A /* ArticleTableViewCell.h */,
 				CCF118AC26B1045500C3819A /* ArticleTableViewCell.m */,
 				CCFA6F1426B132150034F525 /* ArticleOneTableViewCell.h */,
@@ -659,6 +665,8 @@
 				CCFA6F4326B18AD90034F525 /* PrivateLetterViewController.m */,
 				CCFA6F3F26B18AAE0034F525 /* PrivateLetterTableViewCell.h */,
 				CCFA6F4026B18AAE0034F525 /* PrivateLetterTableViewCell.m */,
+				CC706B5326BA3AD0002BA328 /* ChatViewController.h */,
+				CC706B5426BA3AD0002BA328 /* ChatViewController.m */,
 				CCFA6F4526B196920034F525 /* RecommondViewController.h */,
 				CCFA6F4626B196920034F525 /* RecommondViewController.m */,
 				CCFA6F4826B196B20034F525 /* RecommondTableViewCell.h */,
@@ -964,6 +972,7 @@
 				CC2E180B26B8274A00F44540 /* radio_button_user.png in Resources */,
 				CC2E181426B8274A00F44540 /* radio_button_home_normal.png in Resources */,
 				CCFA6F5326B199D20034F525 /* R1.png in Resources */,
+				CCCFEA5926BA7EC6003C98A6 /* 气泡.jpg in Resources */,
 				CC2E17EA26B8274A00F44540 /* main_img3.png in Resources */,
 				CC2E17FB26B8274A00F44540 /* radio_button_cup_pressed.png in Resources */,
 				CCF0F95C26B38727003BBEAA /* 19.jpeg in Resources */,
@@ -1062,6 +1071,8 @@
 				CCEA1A1B26B2946E00F84833 /* MessageSetTableViewCell.m in Sources */,
 				CCF118AD26B1045500C3819A /* ArticleTableViewCell.m in Sources */,
 				CC05E17A26AEE12500289ED7 /* FirstViewController.m in Sources */,
+				CCCFEA5F26BA865A003C98A6 /* ArticleViewController.m in Sources */,
+				CC706B5526BA3AD0002BA328 /* ChatViewController.m in Sources */,
 				CC45B92026B2574F00325AAA /* PasswordChangeViewController.m in Sources */,
 				CCEA1A2226B29D3100F84833 /* MyUpLoadTableViewCell.m in Sources */,
 				CC45B90F26B2429300325AAA /* BasicInformationTableViewCell.m in Sources */,
@@ -1078,7 +1089,6 @@
 				CC45B90C26B2415900325AAA /* BasicInformationViewController.m in Sources */,
 				CC06C1A226AFBB2300005757 /* ActivityTableViewCell.m in Sources */,
 				CCFA6F4726B196920034F525 /* RecommondViewController.m in Sources */,
-				CCE5365D26AD9AF1002863F1 /* ArticleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

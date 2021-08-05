@@ -120,7 +120,7 @@
     _strPassword = passwordText;
 }
 -(void) pressLogin {
-    if (([_strName isEqualToString:_nameTextField.text] && [_strPassword isEqualToString:_passwordTextField.text]) && (_nameTextField.text != nil) && (_passwordTextField != nil)) {
+//    if (([_strName isEqualToString:_nameTextField.text] && [_strPassword isEqualToString:_passwordTextField.text]) && (_nameTextField.text != nil) && (_passwordTextField != nil)) {
         HomeViewController* homeViewController = [[HomeViewController alloc] init];
         SearchViewController* searchViewController = [[SearchViewController alloc] init];
         ArticleViewController* articleViewController = [[ArticleViewController alloc] init];
@@ -149,11 +149,11 @@
         tabBarController.tabBar.barStyle = UIBarStyleBlack;
         tabBarController.tabBar.translucent = NO;
         [self presentViewController:tabBarController animated:YES completion:nil];
-    } else {
-        _alertView = [UIAlertController alertControllerWithTitle:@"提示" message:@"账号或密码错误或不存在，请重新输入或注册！！！" preferredStyle:UIAlertControllerStyleAlert];
-        [_alertView addAction:[UIAlertAction actionWithTitle:@"sure" style:UIActionSheetStyleDefault handler:nil]];
-        [self presentViewController:_alertView animated:true completion:nil];
-    }
+//    } else {
+//        _alertView = [UIAlertController alertControllerWithTitle:@"提示" message:@"账号或密码错误或不存在，请重新输入或注册！！！" preferredStyle:UIAlertControllerStyleAlert];
+//        [_alertView addAction:[UIAlertAction actionWithTitle:@"sure" style:UIActionSheetStyleDefault handler:nil]];
+//        [self presentViewController:_alertView animated:true completion:nil];
+//    }
 }
 
 -(void) pressRegister {
